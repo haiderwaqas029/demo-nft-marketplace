@@ -19,7 +19,7 @@ function AvatarSlider() {
         slidesPerView={5}
         spaceBetween={30}
         autoplay={{
-          delay: 3000,
+          delay: 1000,
           disableOnInteraction: false,
         }}
         breakpoints={{
@@ -32,7 +32,7 @@ function AvatarSlider() {
             spaceBetween: 30,
           },
           1024: {
-            slidesPerView: 4,
+            slidesPerView: 5,
             spaceBetween: 40,
           },
           1280: {
